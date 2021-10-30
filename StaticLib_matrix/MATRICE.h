@@ -10,12 +10,12 @@ namespace algebre
 
 	public:
 		Matrice(int lg,int col);
-		Matrice(const Matrice&) = delete;
 		void remplissage(int val);
-		Matrice& operator=(const Matrice& M)=delete;
+		void remplir();
 		Matrice& operator+(const Matrice& M);
 		Matrice& operator-(const Matrice& M);
 		Matrice& operator*(int d);
+		Matrice& operator*(Matrice& M);
 		void print() const;
 		~Matrice();
 	};
