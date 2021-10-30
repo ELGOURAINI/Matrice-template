@@ -7,7 +7,7 @@ algebre::Matrice::Matrice(int lg, int col)
 {
     this->nbre_lgn = lg;
     this->nbre_col = col;
-    for (int j = 0; j < col; j++)
+    for (int j = 0; j < col; j++ )
     {
         this->tab[j] = new int[col];
     }
