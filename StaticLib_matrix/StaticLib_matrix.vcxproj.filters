@@ -32,8 +32,5 @@
     <ClCompile Include="pch.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="MATRICE.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
